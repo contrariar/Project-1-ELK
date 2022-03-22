@@ -1,23 +1,25 @@
 Question 2: Corporate VPN
 What are the advantages and disadvantages of using a corporate VPN, and under what circumstances is using one appropriate?
 
-
-Restate the Problem
-
-
 Provide a Concrete Example Scenario
 
 In Project 1, which VMs did you have on the network?
+
 Which tools did you use to control access to and from the network?
+
 If you didn't use a VPN, what did you use?
+
 What disadvantage(s) did your non-VPN solution have?
+
 What advantage(s) did your non-VPN solution have?
+
 
 
 
 Explain the Solution Requirements
 
 Would a VPN meet the access control requirements you had for Project 1?
+
 How would a VPN protect the network just as well, or better, than your current solution?
 
 
@@ -25,6 +27,7 @@ How would a VPN protect the network just as well, or better, than your current s
 Explain the Solution Details
 
 Which Azure tools would you use to implement a VPN to your Project 1 network?
+
 How would you onboard users to the new VPN system?
 
 
