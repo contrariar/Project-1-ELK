@@ -1,44 +1,29 @@
-Question 2: Corporate VPN
-What are the advantages and disadvantages of using a corporate VPN, and under what circumstances is using one appropriate?
-
-Provide a Concrete Example Scenario
-
-In Project 1, which VMs did you have on the network?
-
-Which tools did you use to control access to and from the network?
-
-If you didn't use a VPN, what did you use?
-
-What disadvantage(s) did your non-VPN solution have?
-
-What advantage(s) did your non-VPN solution have?
-
-
-
-
-Explain the Solution Requirements
-
-Would a VPN meet the access control requirements you had for Project 1?
-
-How would a VPN protect the network just as well, or better, than your current solution?
-
-
-
-Explain the Solution Details
-
-Which Azure tools would you use to implement a VPN to your Project 1 network?
-
-How would you onboard users to the new VPN system?
-
-
-
-Identify Advantages and Disadvantages of the Solution
-
-
-In Project 1, would a VPN have been an appropriate access control solution?
-
-
-Under what circumstances is a VPN a good solution?
-
-
-When, if ever, is a VPN "overkill"?
+Question 2: Corporate VPN (Virtual Private Network)
+What are the advantages and disadvantages of using a corporate VPN, and under what circumstances is using one appropriate? A. VPN are perfect for remote user/workers/staff. It was extremely helpful during the recent pandemic. It provides a secure remote connection while working out of the office.  It cost efficient.   Disadvantages: Slow Connections (subject to speed provided by our ISP).  Connection might drop, setting up the VPN is not an easy task.  Not setting the VPN properly may cause data lost. 
+1.	Restate the Problem
+2.	Provide a Concrete Example Scenario
+o	In Project 1, which VMs did you have on the network?
+o	A. ELK
+o	Which tools did you use to control access to and from the network?
+o	A. Azure Lab and GitBash
+o	If you didn't use a VPN, what did you use?
+o	A. I use the VM (Virtual Machine)
+o	What disadvantage(s) did your non-VPN solution have?
+o	A. Privacy is not guaranteed | Slow connection speed | Use more Data | Open for malware and phishing.
+o	What advantage(s) did your non-VPN solution have?
+o	A. Safe to use on public Wi-Fi. | Data Privacy | Easy access to your work place application | Require less storage space on user computer | Can be use on cell/tablets etc.
+3.	Explain the Solution Requirements
+o	Would a VPN meet the access control requirements you had for Project 1?
+o	A. Yes, by allowing only certain connection, the use of SSH KEY to secure connectivity among devices.
+o	How would a VPN protect the network just as well, or better, than your current solution? A VPN will only allow remote user with the correct credential to connect to the corporate network.  1st user needs to have the password to access the device, a second password to connect to the VPM.  The IP and configuration are done in most cases before the device leave the office.  
+4.	Explain the Solution Details
+o	Which Azure tools would you use to implement a VPN to your Project 1 network? A.   Azure Tools used: Azure Portal, Power Shell, SQL , VM
+o	How would you onboard users to the new VPN system?
+o	A. With the credential provided by the corporate IT team.  
+5.	Identify Advantages and Disadvantages of the Solution
+o	In Project 1, would a VPN have been an appropriate access control solution?
+o	A. Yes, because it will provide access to information that is generally located behind the company firewall. It will also provide information on who is using and miss-using company information   It allows the IT department to kill and terminate connection if it looks suspicious. 
+o	Under what circumstances is a VPN a good solution?
+o	A. When user is working remotely and information need to be kept secure and private. 
+o	When, if ever, is a VPN "overkill"? 
+  A. Overkill: when the VPN is overloaded and it becomes slow and vulnerable, or when user is using suspicious proxy networks to access the VPN. 
